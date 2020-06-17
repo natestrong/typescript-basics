@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="ProjectModuleManager">
-    <modules>
-      <module fileurl="file://$PROJECT_DIR$/node-test/node-test.iml" filepath="$PROJECT_DIR$/node-test/node-test.iml" />
-      <module fileurl="file://$PROJECT_DIR$/typescript-basics-seed-master/typescript-basics-seed-master.iml" filepath="$PROJECT_DIR$/typescript-basics-seed-master/typescript-basics-seed-master.iml" />
-    </modules>
-  </component>
-</project>
