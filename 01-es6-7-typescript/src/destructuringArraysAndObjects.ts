@@ -5,7 +5,8 @@ const pizza = {
     toppings: ['pepperoni']
 }
 
-// Can use object destructuring to fill in function parametersnewe
+// Can use object destructuring to fill in function parameters
+// @ts-ignore
 function order({name: pizzaName, toppings: pizzaToppings}) {
     return {pizzaName, pizzaToppings}
 }
@@ -29,9 +30,9 @@ console.log(third)
 
 // Can use array destructuring to fill in function parameters
 function logToppings([first, second, third]: any) {
- console.log(first)
- console.log(second)
- console.log(third)
+    console.log(first)
+    console.log(second)
+    console.log(third)
 }
 
 logToppings(toppings)
