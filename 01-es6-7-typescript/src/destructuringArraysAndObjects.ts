@@ -5,7 +5,7 @@ const pizza = {
     toppings: ['pepperoni']
 }
 
-// Can use object destructuring to fill in function parameters
+// Can use object destructuring to fill in function parametersnewe
 function order({name: pizzaName, toppings: pizzaToppings}) {
     return {pizzaName, pizzaToppings}
 }
